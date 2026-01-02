@@ -2,9 +2,27 @@
 # Browse through dlna media directories using a fuzzy-finder
 # then use mpv to play a selected file.
 #
-# Requires curl and xmlstarlet. Optionally requires socat to discover the dlna
-# server automatically. Set the FDLNA_HOST variable to an IP to manually
-# specify the server address.
+# Requires curl and xmlstarlet.
+#
+# Optionally requires socat to discover the dlna server automatically. Specify
+# manually via environment variable and IP address (needs the trailing slash):
+#
+#   FDLNA_HOST='http://192.168.0.5:8200/' fdlna
+#
+# Outputs a directory ID (e.g., `64$2$8$9`) that can be used to return to that
+# directory directly. (Shell needs single quotes.)
+#
+#   fdlna '64$2$8$9'
+#
+# Otherwise the HTTP URL to the media file can be given to mpv directly.
+
+while getopts hx opt; do
+    case $opt in
+    h) awk 'NR == 1 {next} /^$/ {exit} {print substr($0, 3)}' "$0"; exit;;
+    x) set -x;;
+    esac
+done
+shift $(( OPTIND - 1 ))
 
 tab="$(printf '\t')"
 
