@@ -18,4 +18,4 @@ then echo 3 days ago
 else echo 1 day ago
 fi')"
 
-git lc --since=@"$date_rel" --author="$author"
+git lc --all --since=@"$date_rel" --author="$author"
