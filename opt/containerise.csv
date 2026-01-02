@@ -39,7 +39,7 @@ chatgpt.com, LLM
 !*.office.com, Microsoft
 !*.xbox.com, Microsoft
 127.0.0.1, No Container
-192.168.122.10, No Container
+192.168.121.10, No Container
 localhost, No Container
 zimbra.xmission.com, Personal
 opentodebate.org, Reddit
