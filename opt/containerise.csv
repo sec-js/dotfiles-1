@@ -27,6 +27,10 @@ devdocs.io, DevDocs
 shoelace.style, DevDocs
 !*.webawesome.com, DevDocs
 discord.com, Discord
+!*.arena.net, Gaming
+!*.guildwars2.com, Gaming
+!*.guildwars.com, Gaming
+gw2efficiency.com, Gaming
 !*.google.com, Google
 !*.googleusercontent.com, Google
 !*.youtube.com, Google
@@ -40,6 +44,7 @@ chatgpt.com, LLM
 !*.xbox.com, Microsoft
 127.0.0.1, No Container
 192.168.121.10, No Container
+[fd00::10], No Container
 localhost, No Container
 zimbra.xmission.com, Personal
 opentodebate.org, Reddit
