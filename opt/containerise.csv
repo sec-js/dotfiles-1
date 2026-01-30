@@ -68,6 +68,7 @@ gpodder.net, Shopping
 !*.steamcommunity.com, Shopping
 !*.steampowered.com, Shopping
 ting.com, Shopping
+!*.slack.com, Slack
 !*.askubuntu.com, StackOverflow
 !*.mathoverflow.net, StackOverflow
 !*.serverfault.com, StackOverflow
