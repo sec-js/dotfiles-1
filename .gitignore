@@ -102,10 +102,13 @@
 /.local/share/gvfs-metadata
 /.local/share/ibus-typing-booster
 /.local/share/icc
+/.local/share/icons
 /.local/share/keyrings
+/.local/share/mime
 /.local/share/recently-used.xbel
 /.local/share/Steam
 /.local/share/virtualenv
+/.local/share/vulkan
 /.mozilla
 /.nodejs
 /.npm
