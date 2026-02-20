@@ -200,9 +200,6 @@
     attic = $PAGER -F
     summary = $PAGER -F
 
-[blame]
-    ignoreRevsFile = .git-blame-ignore-revs
-
 [merge]
     tool = diffconflicts
 
