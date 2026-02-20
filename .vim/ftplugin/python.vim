@@ -28,6 +28,10 @@ let g:tagbar_type_python = {
     \ ]
 \ }
 
+iab _traceback
+    \ import traceback<cr>
+    \print(f'XXX: exc: {traceback.print_exc()}')
+
 " Add PYTHONPATH to Vim path to enable 'gf' (also works when in a virtualenv)
 if has('python')
 py << EOL
