@@ -20,6 +20,7 @@ www.goodreads.com, Amazon
 !*.familysearch.org, Church
 !*.ogdenbuddhistchurch.org, Church
 !*.claude.ai, Claude
+!*.claude.com, Claude
 !*.github.com, Code
 !*.githubusercontent.com, Code
 !*.gitlab.com, Code
@@ -45,7 +46,7 @@ chatgpt.com, LLM
 !*.xbox.com, Microsoft
 127.0.0.1, No Container
 192.168.121.10, No Container
-[fd00::10], No Container
+[fd00::a], No Container
 localhost, No Container
 zimbra.xmission.com, Personal
 opentodebate.org, Reddit
@@ -87,5 +88,5 @@ www.racket.news, Substack
 !*.grokipedia.com, Twitter
 !*.grokusercontent.com, Twitter
 !*.twitter.com, Twitter
-!*.x.ai, Twitter
-!*.x.com, Twitter
+x.ai, Twitter
+x.com, Twitter
