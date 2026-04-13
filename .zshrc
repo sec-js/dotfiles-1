@@ -185,7 +185,7 @@ unalias ls la ll 2>/dev/null
 export LR_GNU_COLORS=1
 alias ls='lrls -AF'
 alias la='lrls -F'
-alias ll='lrls -lhF'
+alias ll='lrls -lhAF'
 
 # Regular Vim
 alias vi=$EDITOR; compdef vi=vim
