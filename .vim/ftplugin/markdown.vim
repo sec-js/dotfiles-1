@@ -27,7 +27,7 @@ let g:tagbar_type_markdown = {
 
 " Use a skeleton template when editing a new file named 'presentation.md'
 if bufname('%') =~? 'presentation\.md$'
-    let b:ftskeleton="~/.vim/ftplugin/markdown/skeleton/remark.md"
+    let b:ftskeleton="~/.vim/ftplugin/markdown/skeleton/pandoc.md"
 endif
 
 let g:markdown_fenced_languages = [
